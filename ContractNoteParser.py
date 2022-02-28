@@ -10,7 +10,7 @@ def parse_file(fileName):
     pdf_file = open(fileName,'rb')
     read_pdf = PyPDF2.PdfFileReader(pdf_file)
 
-    password ="VIK1706"
+    password ="VVVVVVV"
     # Check if the opened file is actually Encrypted
     if read_pdf.isEncrypted:
         print ("File is password protected")
